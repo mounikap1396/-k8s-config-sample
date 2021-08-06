@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment-flux
+  name: nginx-deployment-fluxnew
   labels:
     app: nginx
 spec:
@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-svc-kibana
+  name: nginx-svc-flux
 spec:
   selector:
     app: nginx
